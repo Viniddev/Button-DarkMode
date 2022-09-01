@@ -52,3 +52,20 @@ function chamadaMenu(){
         escondido = true
     }
 }
+
+item1.addEventListener("click", trocaRoxo)
+function trocaRoxo(){
+    document.body.style.background="#9400D3"
+}
+item2.addEventListener("click", trocaRed)
+function trocaRed(){
+    document.body.style.background="#FF0000"
+}
+item3.addEventListener("click", trocaBlue)
+function trocaBlue(){
+    document.body.style.background="#00008B"
+}
+item4.addEventListener("click", trocaMIx)
+function trocaMIx(){
+    document.body.style.background="linear-gradient(120deg, red, blue)"
+}
