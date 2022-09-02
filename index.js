@@ -67,5 +67,5 @@ function trocaBlue(){
 }
 item4.addEventListener("click", trocaMIx)
 function trocaMIx(){
-    document.body.style.background="linear-gradient(120deg, red, blue)"
+    document.body.style.background="radial-gradient(blue, black)"
 }
